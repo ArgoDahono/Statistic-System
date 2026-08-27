@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-04-17T19:23:05.705880",
+  "validation_mode": "STRICT",
+  "summary": {
+    "total_validations": 1,
+    "successful_validations": 1,
+    "failed_validations": 0,
+    "total_records_validated": 1,
+    "total_valid_records": 1,
+    "total_invalid_records": 0,
+    "total_errors": 0,
+    "total_warnings": 0
+  },
+  "guards_status": {
+    "identity_guard": {
+      "registered_identities": 1,
+      "validation_report": {
+        "total_attempts": 1,
+        "accepted": 1,
+        "rejected": 0,
+        "total_identities_registered": 1,
+        "acceptance_rate": 100.0,
+        "timestamp": "2026-04-17T19:23:05.705921"
+      }
+    },
+    "temporal_guard": {
+      "registered_data": 1,
+      "validation_report": {
+        "total_attempts": 1,
+        "accepted": 1,
+        "rejected": 0,
+        "total_warnings": 0,
+        "acceptance_rate": 100.0,
+        "timestamp": "2026-04-17T19:23:05.705931"
+      }
+    },
+    "clinical_guard": {
+      "registered_data": 1,
+      "validation_report": {
+        "total_attempts": 1,
+        "accepted": 1,
+        "rejected": 0,
+        "total_warnings": 0,
+        "acceptance_rate": 100.0,
+        "out_of_range_values": 0,
+        "timestamp": "2026-04-17T19:23:05.705939"
+      }
+    },
+    "duplicate_guard": {
+      "duplicate_summary": {
+        "total_records_registered": 1,
+        "unique_patients": 1,
+        "total_duplicate_groups": 0,
+        "records_in_duplicates": 0,
+        "duplicate_details": []
+      },
+      "validation_report": {
+        "total_registrations": 1,
+        "duplicate_warnings": 0,
+        "duplicate_groups_found": 0,
+        "summary": {
+          "total_records_registered": 1,
+          "unique_patients": 1,
+          "total_duplicate_groups": 0,
+          "records_in_duplicates": 0,
+          "duplicate_details": []
+        },
+        "timestamp": "2026-04-17T19:23:05.705952"
+      }
+    }
+  },
+  "validation_history": [
+    {
+      "timestamp": "2026-04-17T19:23:05.704096",
+      "mode": "STRICT",
+      "total_records": 1,
+      "valid_records": 1,
+      "invalid_records": 0,
+      "errors": 0,
+      "warnings": 0,
+      "passed": true
+    }
+  ]
+}
